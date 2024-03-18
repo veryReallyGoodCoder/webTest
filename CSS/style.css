@@ -80,7 +80,14 @@
 
 /* snake */
 
-
+.snake{
+  border-radius: 50%;
+  border: 10px solid;
+  width: 50%;
+  height: 100%;
+  -webkit-animation: slide 3s ease-in-out infinite;
+  animation: slide 3s ease-in-out infinite;
+}
 
 @keyframes slide {
   0% {
@@ -113,7 +120,14 @@
 /* nav */
 
 #nav{
-  position: absolute;
+  position: sticky;
   /* z-index: -10; */
-  top: 100%;
+  margin-top: 20%;
 }
+
+.cards{
+  display: flex;
+  padding: 20%;
+}
+
+
